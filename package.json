@@ -17,5 +17,8 @@
     "internt"
   ],
   "author": "Achintya Ashok",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "request-promise": "^4.2.1"
+  }
 }
