@@ -122,7 +122,7 @@ let getAverageResponseTime = (method, uri, headers) => {
 };
 
 getAverageResponseTime('GET',
-    'https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD',
+    'http://search-api-eurosport-prod.bamgrid.com/svc/search/v2/graphql?query=%7B%0A%09CategoryAll%20%7B%0A%09%20%20contentId%0A%09%20%20type%0A%09%20%20sport%0A%20%20%20%20defaultAssetImage%20%7B%0A%20%20%20%20%20%20contentId%0A%20%20%20%20%20%20type%0A%20%20%20%20%20%20altText%0A%20%20%20%20%20%20caption%0A%20%20%20%20%20%20credit%0A%20%20%20%20%20%20headline%0A%20%20%20%20%20%20rawImage%0A%20%20%20%20%20%20width%0A%20%20%20%20%20%20height%0A%20%20%20%20%20%20inning%0A%20%20%20%20%20%20purchaseUrl%0A%20%20%20%20%20%20timestamp%0A%20%20%20%20%20%20title%0A%20%20%20%20%7D%0A%09%7D%0A%7D',//'https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD',
     {'contentType': 'application/json'}
 );
 
