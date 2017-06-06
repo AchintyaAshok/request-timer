@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Helpful library to check how long approximately it takes for requests to conclude",
+  "main": "requestTimer.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "requests",
+    "http",
+    "post",
+    "get",
+    "put",
+    "timer",
+    "when",
+    "internt"
+  ],
+  "author": "Achintya Ashok",
+  "license": "ISC"
+}
